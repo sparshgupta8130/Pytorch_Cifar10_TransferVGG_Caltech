@@ -1,0 +1,2 @@
+# CNNs for Classification on Cifar-10 and Caltech-256
+The architectures SparseNet, AshNet, WaVaNet and RosNet are self designed architectures used for classification on Cifar-10 dataset. `Transfer_caltech256.py` is implementation of Transfer learning on Caltech 256 dataset, where weights of VGG-16 are used and last fully-connected layer is replaced for 256 outputs. There are also codes for visualizations of weights and filter activations.
